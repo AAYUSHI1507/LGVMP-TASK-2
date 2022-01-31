@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+  background-color: black;
+}
+.BlogCard {
+  margin: 16px;
+  padding: 16px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px #ccc;
+}
+.btn1 {
+  background-color: rgb(243, 55, 55);
+
+  color: whitesmoke;
+  box-shadow: none;
+  height: 50px;
+  width: 150px;
+  margin-top: 10px;
+  border-radius: 10px;
+  /* border: 2px solid rgb(87, 31, 31); */
+  border: none;
+  box-shadow: 3px 3px 3px rgb(71, 37, 37);
+  font-size: 20px;
+}
+.btn1:hover {
+  background-color: rgb(97, 31, 31);
+}
+.nav2 h1 {
+  color: whitesmoke;
+  font-size: 45px;
+  position: absolute;
+  top: -10px;
+  left: -2px;
+}
+.nav1 h3 {
+  color: lightcoral;
+  font-weight: 300;
+  font-size: 30px;
+}
+.nav1 a {
+  color: coral;
+  text-decoration: none;
+}
+.nav1 a:hover {
+  text-decoration: underline;
+}
+.main {
+  background-color: blue;
+}

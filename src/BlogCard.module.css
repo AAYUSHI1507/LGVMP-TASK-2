@@ -1,0 +1,52 @@
+.NewBlogCard {
+  margin: 16px;
+  padding: 8px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgb(24, 26, 63);
+  background-color: rgb(75, 104, 122);
+}
+.NewBlogCard h3 {
+  font-size: 17px;
+  font-weight: bold;
+  color: rgb(49, 30, 16);
+}
+.NewBlogCard p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  color: aliceblue;
+}
+nav {
+  background-color: rgb(24, 88, 75);
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: right;
+  justify-content: space-around;
+}
+/* .nav1 {
+  font-size: 20px;
+  justify-content: right;
+  /* align-items: right; */
+
+.nav h1 {
+  color: whitesmoke;
+}
+/* .btn1 {
+  background-color: red;
+  color: whitesmoke;
+} */
+@media (min-width: 992px) {
+  .NewBlogCard {
+    width: 40%;
+    display: inline-block;
+  }
+}
+@media (max-width: 726px) {
+  .nav2,
+  nav {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+}
